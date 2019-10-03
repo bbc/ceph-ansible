@@ -44,7 +44,9 @@
             + groups[rbd_mirror_group_name | default('rbdmirrors')] | default([])
             + groups[nfs_group_name | default('nfss')] | default([])
             + groups[client_group_name | default('clients')] | default([])
-            + groups[iscsi_gw_group_name | default('iscsigws')] | default([]) }}"
+            + groups[iscsi_gw_group_name | default('iscsigws')] | default([])
+            + groups[grafana_server_group_name | default('grafana-server')] | default([])
+            + groups[rgwloadbalancer_group_name | default('rgwloadbalancers')] | default([]) }}"
 
     - name: gather and delegate facts
       setup:
