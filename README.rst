@@ -1,9 +1,13 @@
-ceph-ansible is deprecated, please migrate to ``cephadm`` instead.
-==================================================================
+ceph-ansible
+============
 
+**NOTE: cephadm is the new official installer, you should consider migrating to cephadm.**
 
-``cephadm`` is the new official Ceph installer.
+The project is still maintained for the time being but it is encouraged to migrate to ``cephadm``.
 
-See ``cephadm`` documentation [1]
+Ansible playbooks for Ceph, the distributed filesystem.
 
-[1] https://docs.ceph.com/en/latest/cephadm/
+Please refer to our hosted documentation here: https://docs.ceph.com/projects/ceph-ansible/en/latest/
+
+You can view documentation for our ``stable-*`` branches by substituting ``main`` in the link
+above for the name of the branch. For example: https://docs.ceph.com/projects/ceph-ansible/en/stable-6.0/
