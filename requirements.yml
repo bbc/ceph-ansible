@@ -7,4 +7,5 @@ collections:
   - name: ansible.utils
     version: '>=2.5.0'
   - name: community.general
+    version: '==7.5.8'
   - name: ansible.posix
